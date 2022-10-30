@@ -44,3 +44,4 @@ else if(wish==='juice'){
 else{
    console.log('give some water')
 }*/
+

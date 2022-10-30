@@ -1,6 +1,19 @@
 /**
  * arithmetic operators
  * logical operators
+ * example of OR operater(between 10||20)
+ * function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val<10 || val>20) {
+    return "Outside";
+  }
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+
  * assignment operators
  * bitwise operators
  * comparison operators
