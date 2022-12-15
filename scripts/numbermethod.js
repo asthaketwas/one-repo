@@ -11,7 +11,7 @@ console.log(res2)
 console.log(res4)
 let eg=+"30"
 console.log(eg)*/
-let m1="20"
+/*let m1="20"
 let m2=20
 console.log(Number(m1)+m2)
 
@@ -35,7 +35,7 @@ let no="12.5px"
 console.log(parseFloat(no))
 
 let salary=30000.560
-console.log(salary.toFixed(1))
+console.log(salary.toFixed(1))*/
 
 let sum=456000
 console.log(sum.toExponential())

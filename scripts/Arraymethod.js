@@ -17,7 +17,7 @@ console.log(fruits.join(" "))
 
 //pop()
 //removes the last element from the array
-/*console.log(fruits.pop())
+console.log(fruits.pop())
 console.log(fruits.pop())
 console.log(fruits)
 //push()
@@ -46,7 +46,7 @@ console.log(healtier_options)
 console.log(fruits.slice(2,4))
 console.log(fruits.slice(-4,-1))
 //es6 methods - transform methods
-let add=(a,b)=>{
+/*let add=(a,b)=>{
     let c=a+b
     console.log(c)
 }
@@ -78,7 +78,7 @@ let result=fruits.filter(
     (item)=>item.length>5&&item==="orange" 
 )
 console.log(result)
-*/
+
 let result1=fruits.filter(
     (item)=>item.length>5
 )

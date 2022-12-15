@@ -22,8 +22,10 @@ const placement={
     country:"IND"
 
 }
-Object.freeze(placement)
-console.log(Object.isFrozen(placement))
+placement.freeze("company");
+console.log(placement);
+placement.city="raipur";
+console.log(placement);
 
 //Object.assign(target,source)
 /*let target={}

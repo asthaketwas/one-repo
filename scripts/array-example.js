@@ -81,13 +81,70 @@ console.log(arr.slice(-4,-1))
   console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));*/
   
   
-  (function(){
+  /*(function(){
     setTimeout(()=> console.log(1),2000);
     console.log(2);
     setTimeout(()=> console.log(3),0);
     console.log(4);
-   })();
+   })();*/
    //First the 2 is printed with the console.log, then even with a time delay 
    //of 0ms, the 4 is printed before the 3 because JS executes setTimeout with 
    //the Web API, and so the entire function is executed first. Lastly, after a 
    //delay of 2000ms, the 1 is printed.
+   /*function filteredArray(arr, elem) {
+    let newArr = [];
+    // change code below this line
+      for(let i=0;i<arr.length;i++){
+        let flag=0;
+        for(let j=0;j<arr[i].length;j++){
+          if(arr[i][j]===elem){
+            flag=1;
+            break;
+          }
+        }
+        if(flag==0)
+          newArr.push(arr[i]);
+      }
+    // change code above this line
+    return newArr;
+  }
+  
+  
+  // change code here to test different cases:
+  console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 4, 9]], 3));*/
+
+
+
+  /*function sample(dep,...cgpa)
+  {
+    console.log(cgpa)
+    for(i=0;i=cgpa.length; i++)
+    {
+      console.log(i);
+    }
+  }
+  sample("cad",9.0,9.5,8.5,8.0,7.0,4.5)
+  
+  function sample(dep, ...cgpa){
+    
+    var sum=0;
+    for(let i=0; i<cgpa.length; i++){
+        sum+=cgpa[i]
+    }
+    var avg = sum/cgpa.length;
+    return avg;
+    
+}
+console.log(sample("cse", 6,7,8,9));*/
+
+
+let arr=[2,5,0,1,3,0,6,0];
+//[2,5,1,3,6,0,0,0]
+let newarr;
+if( arr>0 ){
+    newarr.push();
+
+}
+var clothes=["a","b""c]
+
+
